@@ -4,7 +4,7 @@
     flex-direction:row;
     flex-wrap: wrap;
     margin:0 auto;
-    background-color: black;
+    background-color: rgb(154, 149, 149);
 
 }
 
@@ -16,6 +16,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
+    width:14em;
 }
 
 .my-div:hover{
@@ -28,5 +29,97 @@
 
 .odd-div {
     background-color: #f9f9f9;
+
+}
+#newBook-btn{
+    padding:12px;
+    margin:15px 2.3em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(154, 149, 149);
+}
+
+#newBook-btn:hover{
+    background-color: rgb(177, 174, 174);   
+}
+
+.form-to-newBook{
+    display: none;
+}
+
+.form-to-newBook {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 24px;
+    margin-right: 26px;
+    border: 1px solid #c7b3b3;
+    border-radius: 7px;
+    position: relative
+}
+
+#submit-btn {
+    background-color: #b7f9a3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 60%;
+    font-size: 1rem;
+    margin: 12px 88px
+}
+input{
+    border: 1px solid rgb(240, 227, 253);
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid rgb(221, 221, 248); 
+    outline: none;           
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.1); 
+}
+
+#submit-btn:hover {
+    background-color: #45a049;
+}
+
+
+.change-btn{
+    cursor: pointer;
+    background-color:rgb(111, 116, 111);
+    border-radius: 30px;
+    color: white;
+    border:none;
+    padding: 5px;
+    margin: 7px;
+
+}
+.change-btn:hover{
+    background-color: rgb(177, 174, 174);
 
 }
