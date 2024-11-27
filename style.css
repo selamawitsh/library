@@ -1,0 +1,32 @@
+.display-books {
+    width:35em;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin:0 auto;
+    background-color: black;
+
+}
+
+.my-div {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.my-div:hover{
+    transform: scale(1.1);
+}
+
+.even-div {
+    background-color: #f0f8ff;
+}
+
+.odd-div {
+    background-color: #f9f9f9;
+
+}
